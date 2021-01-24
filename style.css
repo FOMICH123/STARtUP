@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    padding: 10px;
+}
+.menu a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background-color: rgb(226, 226, 226);
+}
+.header {
+    background-image: url(img/polygons.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    width: 800px;
+    margin: 0 auto;
+}
+.header a {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+.header a:hover {
+    background-color: rgb(185, 185, 185);
+}
+.about {
+    text-align: justify;
+    width: 800px;
+    margin: 0 auto;
+}
+.about img {
+    float: right;
+    width: 400px;
+}
+.team {
+    text-align: center;
+}
+.num {
+    margin: 2px 5px;
+    width: 400px;
+    height: 550px;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    border:none;
+    /* x y размытие расстяжение цвет */
+    box-shadow: 0 2px 5px gray;
+    /* border-width: 1px;
+    border-color: rgb(212, 212, 212); */
+}
+.zagolovok {
+    text-align: left;
+    font-weight: 500;
+}
+#wt {
+    color: rgb(158, 158, 158);
+}
+.tx {
+    text-align: left;
+}
+.btn {
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 127, 177);
+    color: white;
+    text-align: center;
+    border-width: 1px;
+}
+.member {
+    padding-top: 10px;
+    width: 400px;
+    height: 300px;
+}
+.par {
+    text-align: center;
+    display: block;
+}
+.in {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+.in-1 {
+    background-image: url(/img/address.png);
+}
+.in-2 {
+    background-image: url(/img/phone.png);
+}
+.in-3 {
+    background-image: url(/img/mail.png);
+}
+.info {
+    padding-left: 50px;
+}
+form {
+    padding-left: 50px;
+}
+.con {
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+    display: block;
+}
+.btn2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 0;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+.menu2 {
+    margin: 0;
+    display: block;
+    background-color: black;
+    color: white;
+}
+.menu2 h5 {
+    margin: 0;
+}   
+.tariff {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgb(138, 138, 138);
+}
+.price {
+    display: inline-block;
+    width: 30%;
+    list-style: none;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    padding: 0;
+}
+.price li {
+    border-bottom :#dddddd solid 1px;
+    padding: 15px 0;
+}
+.price .price-name {
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 30px 0;
+}
+.price-amount {
+    font-weight: bold;
+    font-size: 22px;
+}
+.period {
+    opacity: 50%;
+}
+#pro {
+    background-color: rgb(0, 94, 131);
+}
+.pr-buy {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buy {
+    text-decoration: none;
+    color: white;
+}
+.black {
+    width: 27%;
+}
